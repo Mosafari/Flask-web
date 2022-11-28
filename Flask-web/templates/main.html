@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: #634258;
+              }
+            .LPI{
+                border-radius: 25px;
+                background: #6d6087;
+                background-repeat: repeat;
+            }
+            .PY{
+                border-radius: 25px;
+                background: #60a0b0;
+                background-repeat: repeat;
+            }
+            .Django{
+                border-radius: 25px;
+                background: #9ad1aa;
+                background-repeat: repeat;
+            }
+            .Flask{
+                border-radius: 25px;
+                background: #acdbee;
+                background-repeat: repeat;
+            }
+        </style>
+        <title>Free Sources</title>
+    </head>
+    <body>
+        <p style="font-size:350%;text-align:center"><b>Getting Started</b></p>
+        <br>
+        <br>
+        <div class="LPI">
+            <h1>&nbsp;&nbsp;LPI</h1>
+            <p style="font-size:160%;">Linux Professional Institute (LPI) is committed to the development of a global standard in Linux certification. We believe that such a certification program must meet the requirements of both IT professionals and the organizations that would employ them. To achieve this goal we have adopted an open, rigorous, and consultative development process, which uses both volunteer and hired resources. Our development process is widely recognized and endorsed and has met the strict requirements of independent certification authorities.
+            <br>
+            <br>
+            &nbsp;read more :<a href = "https://www.lpi.org/our-certifications/summary-of-certifications">  https://www.lpi.org/our-certifications/summary-of-certifications</a><br>
+            &nbsp;free resources : <a href = {% url 'resolpi' %}>  Sources Page</a><br>
+            </p>
+        </div>
+        <div class="PY">
+            <h1>&nbsp;&nbsp;Python</h1>
+            <p style="font-size:160%;">Python is a general-purpose, versatile, and powerful programming language. It’s a great first language because Python code is concise and easy to read. Whatever you want to do, python can do it. From web development to machine learning to data science, Python is the language for you.
+            <br>
+            <br>
+            &nbsp;read more :<a href = "https://www.codecademy.com/catalog/language/python">  https://www.codecademy.com/catalog/language/python</a><br>
+            &nbsp;free resources : <a href = {% url 'resopy' %}>  Sources Page</a><br>
+            </p>
+        </div>
+        <div class="Django">
+            <h1>&nbsp;&nbsp;Django</h1>
+            <p style="font-size:160%;">Django is a high-level Python web framework that enables rapid development of secure and maintainable websites. Built by experienced developers, Django takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. It is free and open source, has a thriving and active community, great documentation, and many options for free and paid-for support.
+            <br>
+            <br>
+            &nbsp;read more :<a href = "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction">  https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction</a><br>
+            &nbsp;free resources : <a href = {% url 'resodjango' %}>  Sources Page</a><br>
+            </p>
+        </div>
+        <div class="Flask">
+            <h1>&nbsp;&nbsp;Flask</h1>
+            <p style="font-size:160%;">Flask is a web framework, it’s a Python module that lets you develop web applications easily. It’s has a small and easy-to-extend core: it’s a microframework that doesn’t include an ORM (Object Relational Manager) or such features.
+            <br>
+                It does have many cool features like url routing, template engine. It is a WSGI web app framework.
+            <br>
+            <br>
+            &nbsp;read more :<a href = "https://pythonbasics.org/what-is-flask-python/">  https://pythonbasics.org/what-is-flask-python/</a><br>
+            &nbsp;free resources : <a href = {% url 'resoflask' %}>  Sources Page</a><br>
+            </p>
+        </div>
+    </body>
+</html>
